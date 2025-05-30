@@ -1,0 +1,119 @@
+    1  sudo defaults write /Library/Preferences/FeatureFlags/Domain/UIKit.plist redesigned_text_cursor -dict-add Enabled -bool NO
+    2  /Applications/Visual\ Studio\ Code.app/Contents/MacOS/Electron ; exit;
+    3  /usr/local/mysql/bin/mysql -u root -p
+    4  /usr/local/mysql/bin/mysql -u root -p
+    5  /usr/local/mysql/bin/mysql -u root -p
+    6  man ls
+    7  ls
+    8  clear
+    9  cd
+   10  cd desktop
+   11  ls
+   12  cd ..
+   13  cd desktop
+   14  cd ~
+   15  ls
+   16  ls
+   17  cd desktop
+   18  pwd
+   19  mkdir Lesson
+   20  ls
+   21  clear
+   22  touch empty.txt
+   23  vim empty.txt
+   24  nano empty.txt
+   25  cat empty.txt
+   26  cp empty.txt
+   27  pwd
+   28  cp /Users/danilromanovskiy/desktop/empty.txt /Users/danilromanovskiy/downloads
+   29  rm empty.txt
+   30  ping
+   31  ping google.com
+   32  cd git
+   33  cd Git
+   34  cd desktop
+   35  cd Git
+   36  git config --global user.name "Danyil Romanovskyi"
+   37  git config --global user.email romanovskyi.danyil@gmail.com
+   38  git clone https://github.com/DRomanovskyi/lesson3.1.git
+   39  git status
+   40  cd lesson3.1
+   41  git status
+   42  touch New.txt
+   43  git status
+   44  git add New.txt
+   45  git status
+   46  git commit -m "New file created"
+   47  git status
+   48  git log
+   49  git branch
+   50  git checkout -b new_branch
+   51  git branch
+   52  git checkout  main
+   53  git branch
+   54  git checkout  new_branch
+   55  git branch
+   56  nano New.txt
+   57  git status
+   58  git commit -m "New modified"
+   59  git status
+   60  git checkout  main
+   61  git merge new_branch
+   62  git branch
+   63  git status
+   64  git commit
+   65  git checkout  new_branch
+   66  git merge main
+   67  git statuis
+   68  git status
+   69  git commit
+   70  git checkout  main
+   71  git status
+   72  git commit
+   73  git add New.txt
+   74  git status
+   75  git commit
+   76  cd desktop
+   77  cd Git
+   78  git status
+   79  cd lesson3.1
+   80  git status
+   81  git push
+   82  git
+   83  cd desktop
+   84  cd HW_10
+   85  git configuration
+   86  clear
+   87  https://github.com/DRomanovskyi/HW_10.git
+   88  git clone https://github.com/DRomanovskyi/HW_10.git
+   89  nano .gitignore
+   90  git status
+   91  cd HW_10
+   92  git status
+   93  nano .gitignore
+   94  git status
+   95  git add .gitignore
+   96  git status
+   97  git commit -m "add .gitignore"
+   98  git status
+   99  git add main_test.txt
+  100  touch main_test.txt
+  101  git add main_test.txt
+  102  git commit -m "add main_test.txt"
+  103  hit status
+  104  git status
+  105  git checkout -b develop
+  106  git status
+  107  touch develop_test.txt
+  108  git status
+  109  git add develop_test.txt
+  110  git commit -m "add develop_test.txt"
+  111  nano develop_test.txt
+  112  git status
+  113  git add develop_test.txt
+  114  git status
+  115  git commit -m "task3"
+  116  git checkout main
+  117  git merge develop
+  118  git status
+  119  git log
